@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midías em HTML5</title>
+</head>
+<body>
+    <H1>Imagem Dinâmicas</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou 
+        simplesmente aumente e dimunui o tamanho do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:  1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <p>Para você que gostas de forró está aqui um de execelente qualidade.</p>
+    <audio src="midias/caisereno.mpeg"controls autoplay></audio>
+    <p>Temos mais opções para você que nao curte forró,temos aqui um rock.</p>
+    <audio src="midias/rock.mpeg"controls autoplay></audio>
+    <p>E para você adolescente que provavelmente não gosta de nenhuma das opções acima,ouça aqui um trap pesado.</p>
+    <audio src="midias/hb20monstra.mpeg" controls autoplay></audio>
+</body>
+</html>
